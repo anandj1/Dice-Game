@@ -50,12 +50,16 @@ if(num2==6){
 
 if(num>num2){
     document.querySelector("h1").textContent=("🚩PLAYER 1 WINS!!");
+    setTimeout(function(){document.querySelector("h1").textContent="Refresh Me"},2000)
+    
 }
 else if(num<num2){
     document.querySelector("h1").textContent=(" PLAYER 2 WINS!! 🚩");
+    setTimeout(function(){document.querySelector("h1").textContent="Refresh Me"},2000)
 }
 else{
     document.querySelector("h1").textContent=("MATCH DRAWN");
+    setTimeout(function(){document.querySelector("h1").textContent="Refresh Me"},2000)
 
 }
 
